@@ -1,163 +1,194 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ana Karen & Francisco | Invitación de Boda</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana Karen & Francisco | Invitación de Boda</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="intro-screen" id="introScreen">
-    <div class="intro-card">
-      <div class="intro-monogram">A · F</div>
-      <p>Invitación de boda</p>
-      <h2>Ana Karen & Francisco</h2>
-      <button id="openInvitation" type="button">Abrir invitación</button>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="intro-screen" id="introScreen">
+      <div class="intro-card">
+        <div class="intro-monogram">A · F</div>
+        <p>Invitación de boda</p>
+        <h2>Ana Karen & Francisco</h2>
+        <button id="openInvitation" type="button">Abrir invitación</button>
+      </div>
     </div>
-  </div>
 
-  <button class="music-btn" id="musicBtn" type="button">Activar música</button>
+    <button class="music-btn" id="musicBtn" type="button">
+      Activar música
+    </button>
 
-  <a class="floating-whatsapp" href="https://wa.me/59170000000?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Ana%20Karen%20y%20Francisco." target="_blank" rel="noopener">
-    Confirmar
-  </a>
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/59169049247?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Ana%20Karen%20y%20Francisco."
+      target="_blank"
+      rel="noopener"
+    >
+      Confirmar
+    </a>
 
-  <audio id="weddingMusic" loop>
-    <source src="music.mp3" type="audio/mpeg">
-  </audio>
+    <audio id="weddingMusic" loop>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
 
-  <main class="page">
-    <section class="hero">
-      <div class="botanical botanical-top"></div>
-      <div class="botanical botanical-bottom"></div>
+    <main class="page">
+      <section class="hero">
+        <div class="botanical botanical-top"></div>
+        <div class="botanical botanical-bottom"></div>
 
-      <div class="monogram fade-in">
-        <span>A</span>
-        <i></i>
-        <span>F</span>
-      </div>
-
-      <p class="eyebrow fade-in delay-1">Nuestra boda</p>
-
-      <h1 class="fade-in delay-2">
-        <span>Ana Karen</span>
-        <em>&</em>
-        <span>Francisco</span>
-      </h1>
-
-      <p class="invitation-text fade-in delay-3">Tenemos el honor de invitarte a celebrar este día tan especial</p>
-
-      <div class="date fade-in delay-4">
-        <span>Sábado</span>
-        <strong>06</strong>
-        <span>Junio 2026</span>
-      </div>
-
-      <div class="hero-countdown fade-in delay-5" aria-label="Cuenta regresiva">
-        <p>Faltan</p>
-        <div class="hero-countdown-grid">
-          <div><strong id="hero-days">00</strong><span>Días</span></div>
-          <div><strong id="hero-hours">00</strong><span>Horas</span></div>
-          <div><strong id="hero-minutes">00</strong><span>Min</span></div>
-          <div><strong id="hero-seconds">00</strong><span>Seg</span></div>
+        <div class="monogram fade-in">
+          <span>A</span>
+          <i></i>
+          <span>F</span>
         </div>
-      </div>
 
-      <a class="primary-btn fade-in delay-6" href="#detalles">Ver invitación</a>
-    </section>
+        <p class="eyebrow fade-in delay-1">Nuestra boda</p>
 
-    <section class="story reveal">
-      <div class="section-title">
-        <span>Con amor</span>
-        <h2>Nuestra historia continúa</h2>
-      </div>
+        <h1 class="fade-in delay-2">
+          <span>Ana Karen</span>
+          <em>&</em>
+          <span>Francisco</span>
+        </h1>
 
-      <div class="story-grid">
-        <div class="photo-frame">
-          <div class="photo-placeholder">
-            <span>Foto de ustedes</span>
-            <small>Reemplaza este bloque por una imagen</small>
+        <p class="invitation-text fade-in delay-3">
+          Tenemos el honor de invitarte a celebrar este día tan especial
+        </p>
+
+        <div class="date fade-in delay-4">
+          <span>Sábado</span>
+          <strong>06</strong>
+          <span>Junio 2026</span>
+        </div>
+
+        <div
+          class="hero-countdown fade-in delay-5"
+          aria-label="Cuenta regresiva"
+        >
+          <p>Faltan</p>
+          <div class="hero-countdown-grid">
+            <div><strong id="hero-days">00</strong><span>Días</span></div>
+            <div><strong id="hero-hours">00</strong><span>Horas</span></div>
+            <div><strong id="hero-minutes">00</strong><span>Min</span></div>
+            <div><strong id="hero-seconds">00</strong><span>Seg</span></div>
           </div>
         </div>
 
-        <div class="story-text">
-          <p>
-            Nos llena de alegría compartir contigo el inicio de esta nueva etapa.
-            Queremos celebrar este momento rodeados de las personas que forman parte de nuestra historia.
-          </p>
+        <a class="primary-btn fade-in delay-6" href="#detalles"
+          >Ver invitación</a
+        >
+      </section>
+
+      <section class="story reveal">
+        <div class="section-title">
+          <span>Con amor</span>
+          <h2>Nuestra historia continúa</h2>
         </div>
-      </div>
-    </section>
 
-    <section id="detalles" class="details reveal">
-      <div class="section-title">
-        <span>Detalles</span>
-        <h2>Nuestra Boda</h2>
-      </div>
+        <div class="story-grid">
+          <div class="photo-frame">
+            <div class="photo-placeholder">
+              <img
+                src="foto.jpeg"
+                alt="Foto de Ana Karen y Francisco"
+                loading="lazy"
+                class="story-photo"
+              />
+            </div>
+          </div>
 
-      <div class="cards">
-        <article class="card">
-          <small>Ceremonia Civil</small>
-          <h3>16:30</h3>
-        </article>
+          <div class="story-text">
+            <p>
+              Nos llena de alegría compartir contigo el inicio de esta nueva
+              etapa. Queremos celebrar este momento rodeados de las personas que
+              forman parte de nuestra historia.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <article class="card">
+      <section id="detalles" class="details reveal">
+        <div class="section-title">
+          <span>Detalles</span>
+          <h2>Nuestra Boda</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <small>Ceremonia Civil</small>
+            <h3>16:30</h3>
+          </article>
+
+          <article class="card">
+            <small>Recepción y Cena</small>
+            <h3>19:00</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="location-section reveal">
+        <div class="section-title">
+          <span>Ubicación</span>
+          <h2>Cómo llegar</h2>
+        </div>
+
+        <div class="location-card">
           <small>Recepción y Cena</small>
-          <h3>19:00</h3>
-        </article>
-      </div>
-    </section>
+          <h3>Salón de Eventos Candy Kids</h3>
+          <p>Warnes · Santa Cruz</p>
 
-    <section class="location-section reveal">
-      <div class="section-title">
-        <span>Ubicación</span>
-        <h2>Cómo llegar</h2>
-      </div>
+          <div class="map-frame">
+            <iframe
+              title="Ubicación de la boda"
+              src="https://www.google.com/maps?q=Salon%20de%20Eventos%20Candy%20Kids%20Warnes%20Santa%20Cruz%20Bolivia&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
 
-      <div class="location-card">
-        <small>Recepción y Cena</small>
-        <h3>Salón de Eventos Candy Kids</h3>
-        <p>Warnes · Santa Cruz</p>
-
-        <div class="map-frame">
-          <iframe
-            title="Ubicación de la boda"
-            src="https://www.google.com/maps?q=Salon%20de%20Eventos%20Candy%20Kids%20Warnes%20Santa%20Cruz%20Bolivia&output=embed"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+          <a
+            class="primary-btn map-button"
+            href="https://www.google.com/maps/search/?api=1&query=Salon+de+Eventos+Candy+Kids+Warnes+Santa+Cruz+Bolivia"
+            target="_blank"
+            rel="noopener"
+          >
+            Cómo llegar
+          </a>
         </div>
+      </section>
 
-        <a class="primary-btn map-button" href="https://www.google.com/maps/search/?api=1&query=Salon+de+Eventos+Candy+Kids+Warnes+Santa+Cruz+Bolivia" target="_blank" rel="noopener">
-          Cómo llegar
-        </a>
-      </div>
-    </section>
+      <section class="dress reveal">
+        <div class="section-title">
+          <span>Código de Vestimenta</span>
+          <h2>Elegante</h2>
+        </div>
+        <p>
+          Hemos preparado una velada especial para compartir este momento
+          contigo.
+        </p>
+      </section>
 
-    <section class="dress reveal">
-      <div class="section-title">
-        <span>Código de Vestimenta</span>
-        <h2>Elegante</h2>
-      </div>
-      <p>Hemos preparado una velada especial para compartir este momento contigo.</p>
-    </section>
+      <section class="final-message reveal">
+        <p>Gracias por ser parte de nuestra historia.</p>
+        <h2>Ana Karen & Francisco</h2>
+      </section>
 
-    <section class="final-message reveal">
-      <p>Gracias por ser parte de nuestra historia.</p>
-      <h2>Ana Karen & Francisco</h2>
-    </section>
+      <footer>
+        <div class="footer-mark">A · F</div>
+        <p>06 · Junio · 2026</p>
+      </footer>
+    </main>
 
-    <footer>
-      <div class="footer-mark">A · F</div>
-      <p>06 · Junio · 2026</p>
-    </footer>
-  </main>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
